@@ -21,6 +21,11 @@ func main() {
 		fmt.Println(i)
 	}
 
+	out := func(a,b int) {
+		fmt.Println(a+b)
+	}
+	out(3,4)
+
 
 
 }
